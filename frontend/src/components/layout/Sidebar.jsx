@@ -20,6 +20,7 @@ export default function Sidebar({ current, onNavigate, open = false, onClose }) 
       {/* Off-canvas on mobile, static on md+ */}
       <aside
         id="app-sidebar"
+        role="complementary"
         aria-hidden={!open}
         className={[
           "bg-white border-r border-gray-200 h-screen top-0 z-40",
